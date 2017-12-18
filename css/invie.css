@@ -1,0 +1,250 @@
+body {
+  font-family: 'Allerta', sans-serif;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  color: white;
+  background: #273b47;
+  padding: 10px 20px;
+}
+
+td {
+  padding: 20px
+}
+
+table, td, th {
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
+
+input, textarea {
+  outline: 0;
+}
+
+input:focus, textarea:focus {
+  background: lightgray;
+}
+
+.button {
+  border: none;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(to left, #fe344e, #ff7250);
+  font-size: 18px;
+  border-radius: 12px;
+  padding: 7px 12px;
+}
+
+.background {
+  background-image: url("../images/background.png");
+  background-size: cover;
+}
+
+.table {
+  margin: 50px 0;
+}
+
+/*Header*/
+.header {
+  position: relative;
+}
+
+.container {
+  margin: auto;
+  position: relative;
+  width: 800px;
+}
+
+.logo {
+  display: inline-block;
+  margin-left: 0;
+}
+
+.menu {
+  display: inline-block;
+  position: absolute;
+  font-size: 24px;
+  right: 0px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.menu li:before {
+  content: '∘';
+  color: white;
+  font-size: 50px;
+  line-height: 20px;
+}
+
+/*Cover Page*/
+.cover-page {
+  color: white;
+  height: 500px;
+  padding: 20px;
+}
+
+.cover-page button {
+  margin-bottom: 70px;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  margin-bottom: 15px;
+  margin-bottom: 0;
+  margin-top: 70px;
+}
+
+.title span {
+  text-decoration: underline;
+}
+
+.title-a {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.title-b {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+/*Guitars*/
+.guitars {
+  color: #1F313C;
+  margin-bottom: 60px;
+}
+
+.guitars h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+}
+
+.guitar {
+  border: 1px solid #1F313C;
+  margin: 10px 10px 40px 10px;
+  padding: 10px;
+  border-radius: 8px;
+  /*overflow: hidden;*/
+}
+
+.guitar ol {
+  padding: 0;
+}
+
+.guitar.b {
+  height: 190px;
+}
+
+.container-guitar-a {
+  padding-left: 20px;
+}
+
+.container-guitar-b {
+  margin-left: 370px;
+  position: relative;
+  bottom: 90px;
+}
+
+.right {
+  float: right;
+  position: relative;
+  top: -127px;
+}
+
+.left {
+  float: left;
+  position: relative;
+}
+
+.cover-page {
+  background-image: url("../images/background.png");
+  color: white;
+  padding: 20px;
+}
+
+.cover-page button {
+  margin-bottom: 70px;
+}
+
+/*Footer*/
+.footer {
+  background: #273b47;
+  padding: 50px 10px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contact img {
+  display: block;
+}
+
+.contact strong {
+  display: block;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+}
+
+.contact-form {
+  display: flex;
+  color: white;
+  width: 400px;
+}
+
+.contact-form label, .gender, .interests {
+  margin-bottom: 10px;
+}
+
+.gender {
+  margin-top: 10px;
+}
+
+.colum-a, .colum-b {
+  display: flex;
+  flex-direction: column;
+} 
+
+.colum-a {
+  margin-right: 15px;
+}
+
+.colum-b {
+  align-items: flex-start;
+}
+
+.colum-b .button {
+  margin-top: 15px;
+}
+
+.interests label {
+  font-size: 12px;
+}
